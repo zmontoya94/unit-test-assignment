@@ -1,7 +1,14 @@
 
+
 public class TestDemo {
 
-  public int addPositive(int a, int b) {
+  public static int a;
+  public static int b;
+  public static void main(String[] args) {
+    new TestDemo().addPositive();
+  } 
+  
+  public int addPositive() {
     
     int i;
     i=a+b;
